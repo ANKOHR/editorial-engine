@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+ee-prompt.txt
+ee-launch.py
+ee-codex.log
+ee-audit.jsonl
+editorial-package/
+demo-sources/

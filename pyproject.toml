@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "editorial-engine"
+version = "1.0.0"
+description = "Deterministic editorial assembly and rules-based QC over synthetic fixtures"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ee = "editorial_engine.cli:main"
+
+[tool.setuptools]
+packages = ["editorial_engine"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
